@@ -53,7 +53,7 @@ public class OnePlusTwoEqualsThreeScript : MonoBehaviour
 			Log($"[1+2=3 #{needyId}] You answered {answerToCheck}, which is correct. Good job!");
 		else
 		{
-			Log($"[1+2=3] #{needyId} You answered {answerToCheck}, but everyone laughs at you because it's wrong. Strike!");
+			Log($"[1+2=3 #{needyId}] You answered {answerToCheck}, but everyone laughs at you because it's wrong. Strike!");
 			Needy.HandleStrike();
 		}
 
